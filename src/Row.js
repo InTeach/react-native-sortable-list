@@ -2,7 +2,7 @@ import React, {Component, PropTypes} from 'react';
 import {Animated, PanResponder, LayoutAnimation, StyleSheet} from 'react-native';
 import {shallowEqual} from './utils';
 
-const ACTIVATION_DELAY = 200;
+const ACTIVATION_DELAY = 100;
 
 export default class Row extends Component {
   static propTypes = {
